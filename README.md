@@ -1,4 +1,4 @@
-# naming-convention-type
+# naming-convention-types
 
 Validate naming convention of string type.
 
