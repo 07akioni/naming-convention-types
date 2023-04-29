@@ -1,0 +1,20 @@
+{
+  "name": "naming-convention-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "rm -rf es && pnpm run build"
+  },
+  "keywords": [],
+  "files": [
+    "es"
+  ],
+  "author": "07akioni",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
